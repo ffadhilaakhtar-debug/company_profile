@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restoran Bakso</title>
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        background-color: #fff8f0;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #ad0e03;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+    }
+
+        .logo-pojok {
+            margin: 0;
+            font-size: 28px
+        }
+
+        .logo-fixed {
+            margin: 0;
+            font-size: 16px;
+        }
+
+    nav {
+        background-color: #e65411;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px 0;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    section {
+        padding: 20px;
+    }
+    footer {
+        background-color: #ed1811;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 30px;
+    }
+    .menu-item, .kategori-item {
+        background-color: white;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 10px 0;
+        box-shadow: 0 0 5px #ccc;
+    }
+    .menu-item img {
+        width: 120px;
+        border-radius: 8px;
+    }
+</style>
+</head>
+<body>
+
+    <!-- INDEX / DASHBOARD -->
+    <header>
+         <!-- logo kiri -->
+     <img src="assets/images/logo.jpg" alt="logobakso">
+     <div>
+        <h1>Bakso Juragan</h1>
+        <p>Menyajikan Cita Rasa Tradisional</p>
+     </div>
+    </header>
+
+    <nav>
+        <a href="#index">Home</a>
+        <a href="#kategori">Kategori Makanan dan Minuman</a>
+        <a href="#menu">Daftar Menu Makanan</a>
+        <a href="#daftar">Daftar Menu Minuman</a>
+        <a href="#about">Tentang Kami</a>
+    </nav>
+
+    <section id="index">
+        <h2>Selamat Datang di bakso juragan</h2>
+        <p>kami berfokus pada penyajian makanan tradisional indonesia dengan sentuhan modern. 
+        Mengutamakan rasa, kualitas, dan pelayanan terbaik untuk pelanggan kami.</p>
+    </section>
+    
+    <!-- KATEGORI MAKANAN -->
+    <section id="kategori">
+        <h2>Kategori Makanan dan Minuman</h2>
+        <div class="kategori-item">
+            <h3>1. Makanan tradisional</h3>
+            <p>Hidangan tradisional, bakso</p>
+        </div>
+        <div class="kategori-item">
+            <h3>2. Minuman</h3>
+            <p>es teh, es jeruk, jeruk panas, teh panas dan minuman segar lainnya.</p>
+        </div>
+    </section>
+
+    <!-- MENU MAKANAN -->
+    <section id="menu">
+        <h2>Menu Makanan</h2>
+        <div class="menu-item">
+            <img src="assets/images/bakso.jpg" alt="bakso">
+            <h3>Bakso Biasa</h3>
+            <p>Rp 12.000</p>
+        </div>
+        <div class="menu-item">
+            <img src="assets/images/bakso_telur.jpg" alt="bakso telur">
+            <h3>Bakso telur</h3>
+            <p>Rp 15.000</p>
+        </div>
+        <div class="menu-item">
+            <img src="assets/images/bakso_urat.jpg" alt="urat jumbo">
+            <h3>Bakso Urat Jumbo</h3>
+            <p>Rp 25.000</p>
+        </div>
+    </section>
+
+    <!--    MENU MINUMAN -->
+    <section id="daftar">
+        <h2>Menu Minuman</h2>
+        <div class="menu-item">
+            <img src="assets/images/es_teh.jpg" alt="es teh">
+            <h3>es teh</h3>
+            <P>Rp 4.000</P>
+        </div>
+        <div class="menu-item">
+            <img src="assets/images/es_jeruk.jpg" alt="es jeruk">
+            <h3>es jeruk</h3>
+            <p>Rp 5.000</p>
+        </div>
+        <div class="menu-item">
+            <img src="assets/images/jeruk_panas.jpg" alt="jeruk panas">
+            <h3>jeruk panas</h3>
+            <p>Rp 5.000</p>
+        </div>
+        <div class="menu-item">
+            <img src="assets/images/teh_panas.jpg" alt="teh panas">
+            <h3>teh panas</h3>
+            <p>Rp 3.000</p>
+        </div>
+    </section>
+
+    <!-- ABOUT US & CONTACT -->
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p><strong>Bakso Juragan</strong> berdiri sejak tahun 2018 dengan visi menjadi restoran lokal dengan cita rasa internasional.
+        Kami percaya bahwa makanan bukan hanya kebutuhan, tetapi juga pengalaman budaya.</p>
+
+        <h3>Contact Person</h3>
+        <p>Email: Baksojuragan@gmail.com<br>
+           Telepon: +62 821-3566-5890<br>
+           Instagram: @baksojuragan</p>
+    </section>
+
+    <footer>
+        <p>© 2018 fazli | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
+ 
+    
